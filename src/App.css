@@ -1,0 +1,26 @@
+body {
+  margin: 15px;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 2em auto;
+  background-color: white;
+  max-width: 300px;
+}
+
+.Card {
+  width: calc(20vw - 4em);
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  vertical-align: top;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
